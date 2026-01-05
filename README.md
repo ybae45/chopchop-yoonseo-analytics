@@ -57,7 +57,8 @@ The analysis emphasizes explainability over pure prediction accuracy, aligning w
 - Git & Github
 
 ### Repo Structure
-chopchop-yoons eo-analytics/
+```
+chopchop-yoonseo-analytics/
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -68,6 +69,7 @@ chopchop-yoons eo-analytics/
 │   └── 04_modeling.ipynb
 ├── report/
 └── README.md
+```
 
 
 ### Future Work 
