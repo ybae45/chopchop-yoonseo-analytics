@@ -3,9 +3,22 @@
 
 This project analyzes user behavior data from the ChopChop meal-planning web application to understand which product features most strongly influence 7-day user retention.
 
+## Executive Summary
+
+This analysis examines which product features drive 7-day user retention in the ChopChop web application. 
+Using simulated event-level data, I found that overall engagement is the strongest predictor of retention. 
+ChopTrack usage shows a positive association with retention, while ChopGuide usage appears more frequently among users at risk of churn.
+These findings suggest that feature usage should be interpreted as behavioral signals rather than isolated metrics.
+
 ## Business Question
 
 Which user behaviors and product features (ChopTrack, ChopGuide usage) are most predictive of 7-day retention?
+
+## Assumptions
+
+- User behavior patterns in the simulated data approximate realistic early-stage product usage.
+- Feature usage is represented as a binary indicator rather than frequency or duration.
+- 7-day retention is treated as a meaningful short-term success metric.
 
 ## Data Description
 
@@ -35,6 +48,12 @@ Features:
 
 The model was chosen for its interpretability and ability to explain feature-level impact on retention.
 
+## Model Evaluation
+
+Model performance was evaluated using ROC AUC in addition to accuracy, as the retention outcome is moderately imbalanced.
+ROC AUC provides a more robust measure of ranking performance across thresholds.
+
+
 ## Interpretation
 
 The results suggest that overall engagement is the strongest driver of short-term retention. Feature usage alone is not sufficient; how and when users interact with features likely matters more than binary usage indicators.
@@ -44,3 +63,10 @@ The results suggest that overall engagement is the strongest driver of short-ter
 - The dataset is simulated and may not capture real-world usage patterns.
 - Feature usage is treated as binary; future work could incorporate frequency and timing.
 - Additional models such as tree-based methods could capture non-linear effects.
+
+## What I Would Do With Real Production Data
+
+- Analyze feature usage sequences and timing effects.
+- Segment users by onboarding cohort.
+- Incorporate session-level metrics and dwell time.
+- Test causal impact using controlled experiments or A/B testing.
