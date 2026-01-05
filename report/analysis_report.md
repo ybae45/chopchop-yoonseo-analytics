@@ -5,7 +5,7 @@ This project analyzes user behavior data from the ChopChop meal-planning web app
 
 ## Business Question
 
-Which user behaviors and product features (e.g., ChopTrack, ChopGuide usage) are most predictive of 7-day retention?
+Which user behaviors and product features (ChopTrack, ChopGuide usage) are most predictive of 7-day retention?
 
 ## Data Description
 
