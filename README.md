@@ -1,5 +1,3 @@
-# chopchop-yoonseo-analytics
-User behavior and retention analysis for a meal-planning web app
 
 # ChopChop User Retention Analysis
 
@@ -32,7 +30,7 @@ Data was generated to simulate realistic early-stage product usage patterns.
    Built a Logistic Regression model to identify which features best predict 7-day retention.
 
 ### Key Findings
-- Overall user activity (total_events) is the strongest predictor of retention. More engaged users are significantly more likely to return after 7 days.
+- Overall user activity (`total_events`) is the strongest predictor of retention. More engaged users are significantly more likely to return after 7 days.
 
 - ChopTrack usage shows a positive association with retention. This suggests ChopTrack functions as a proactive engagement feature.
 
