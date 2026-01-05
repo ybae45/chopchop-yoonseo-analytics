@@ -58,6 +58,14 @@ ROC AUC provides a more robust measure of ranking performance across thresholds.
 
 The results suggest that overall engagement is the strongest driver of short-term retention. Feature usage alone is not sufficient; how and when users interact with features likely matters more than binary usage indicators.
 
+## Supporting Visualizations
+
+Key visualizations supporting this analysis are available in the following notebooks:
+
+- Feature usage and retention comparisons: `notebooks/02_eda.ipynb`
+- Statistical analysis and group comparisons: `notebooks/03_feature_analysis.ipynb`
+- Model performance and feature coefficients: `notebooks/04_modeling.ipynb`
+
 ## Limitations & Next Steps
 
 - The dataset is simulated and may not capture real-world usage patterns.
