@@ -13,11 +13,11 @@ In particular, how do ChopTrack and ChopGuide—two core product features—affe
 
 ### Data Description 
 The dataset consists of synthetic event-level user logs with the following key attributes:
-- event_type (login, view_recipe, save_recipe, use_choptrack, use_chopguide)
-- used_choptrack, used_chopguide (binary feature usage flags)
-- total_events (user activity level)
-- days_since_first
-- retained_7d (target variable)
+- `event_type` (login, view_recipe, save_recipe, use_choptrack, use_chopguide)
+- `used_choptrack`, `used_chopguide` (binary feature usage flags)
+- `total_events` (user activity level)
+- `days_since_first`
+- `retained_7d` (target variable)
 
 Data was generated to simulate realistic early-stage product usage patterns.
 
