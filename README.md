@@ -66,6 +66,7 @@ chopchop-yoonseo-analytics/
 │   ├── 03_feature_analysis.ipynb
 │   └── 04_modeling.ipynb
 ├── report/
+│   └── analysis_report.md/
 └── README.md
 ```
 
@@ -76,10 +77,11 @@ chopchop-yoonseo-analytics/
 - Survival analysis for longer term retention modeling
 
 
-### A detailed written summary of the analysis is available in `report/analysis_report.md`.
-
-
 ### Author
 Yoonseo Bae
 Master's Student in Data Science
+
+
+### 
+* A detailed written summary of the analysis is available in `report/analysis_report.md`.
 
